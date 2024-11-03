@@ -14,11 +14,12 @@
     />
   </head>
   <body>
-    <header>
+
+     <header>
       <div class="contiener">
-        <div class="flex justify-around items-center flex-wrap">
+        <nav class="flex justify-around items-center flex-wrap">
           <a href="#"><img src="/img/Логотип,слоган.png" alt="" /></a>
-          <ul class="flex ul items-center gap-8 flex-wrap">
+          <ul class="flex ul mt-4 items-center gap-8 flex-wrap">
             <li>
               <a id="uslugi" href="#"
                 >Услуги<i id="chev" class="fa-solid fa-chevron-down"></i
@@ -32,15 +33,19 @@
             <li><a href="#">Статьи</a></li>
             <li><a href="#">Контакты</a></li>
           </ul>
-            <i id="bars"  class=" cursor-pointer fa-sharp fa-solid fa-bars"></i>
-        </div>
-        <div class="flex justify-between flex-wrap items-end bg-[#F6F4F4] mt-3">
-          <div class="mt-7 p-[80px]">
+          <i id="bars" class="cursor-pointer fa-sharp fa-solid  fa-bars"></i>
+        </nav>
+         <div
+
+
+          class="flex justify-between w-[100%] items-end BGD  mt-3"
+        >
+          <div class="mt-7 w-[100%] p-[80px]">
             <p class="font-medium text-[25px] leading-[130%] text-[#6b7680]">
               Cтоматология
             </p>
             <p
-              class="font-bold text-[100px] leading-[100%] tracking-[-0.01em] bg-[linear-gradient(164deg,_#30b5df_0%,_#0692b5_100%)] bg-clip-text text-[#30B5DF]"
+              class="font-bold p1 text-[100px] w-[100%] leading-[100%] tracking-[-0.01em] bg-[linear-gradient(164deg,_#30b5df_0%,_#0692b5_100%)] bg-clip-text text-[#30B5DF]"
             >
               AMICLINIC
             </p>
@@ -56,33 +61,42 @@
                 Запись на первый приём
               </button>
               <button
-                class="rounded-[8px] px-[24px] py-[18px] w-[226px] h-[47px] flex justify-center flex-wrap items-center text-[white] bg-[green]"
+                class="rounded-[8px] px-[34px] py-[18px] w-[226px] h-[47px] flex justify-center  items-center text-[white] bg-[green]"
               >
                 Узнать стоимость WhatsApp
               </button>
               <br />
             </div>
             <br />
-            <p class="flex gap-2 items-center">
+            <p class="flex gap-2 items-center >
               <i class="fa-solid fa-clock"></i>Пн-Вс 9:00-21:00
               <i class="fa-solid fa-location-dot"></i>г. Москва, ул. Таганская,
               д. 26, стр. 1
             </p>
           </div>
 
-          <div class="flex items-center gap-2 p-7">
+          <div class="flex items-end eee gap-2 p-7">
             <img src="../img/Component 1.png" alt="" />
             <img src="../img/Component 2.png" alt="" />
             <img src="../img/Component 3.png" alt="" />
           </div>
+        </div> 
+      
+        <div class="contiener">
+
+
+
+
+
+
         </div>
       </div>
-    </header>
+    </header> 
 
     <section>
       <div class="contiener grid grid-cols-2 justify-between gap-3">
         <div
-          class="rounded-[16px] pl-[32px] pr-[32px] py-[10px] w-[100%]] h-[268px] bg-[#8e9943] flex flex-col justify-around"
+          class="bgh1 rounded-[16px] pl-[32px] pr-[32px] py-[10px] w-[100%]] h-[268px] bg-[#8e9943] flex flex-col justify-around"
         >
           <h2 class="text-[white]">
             All-on-4 / Имплантация <br />
@@ -96,7 +110,7 @@
         </div>
 
         <div
-          class="rounded-[16px] pl-[32px] pr-[32px] py-[10px] w-[100%] h-[268px] bg-[#2a080862] flex flex-col justify-around"
+          class="bgh2 rounded-[16px] pl-[32px] pr-[32px] py-[10px] w-[100%] h-[268px] bg-[#2a080862] flex flex-col justify-around"
         >
           <h2 class="text-[white]">
             Лечение зубов <br />
@@ -110,7 +124,7 @@
         </div>
 
         <div
-          class="rounded-[16px] pl-[32px] pr-[32px] py-[10px] w-[100%] h-[268px] bg-[#a07f7f] flex flex-col justify-around"
+          class="bgh3 rounded-[16px] pl-[32px] pr-[32px] py-[10px] w-[100%] h-[268px] bg-[#a07f7f] flex flex-col justify-around"
         >
           <h2 class="text-[white]">Выравнивание зубов</h2>
           <button
@@ -121,7 +135,7 @@
         </div>
 
         <div
-          class="rounded-[16px] pl-[32px] pr-[32px] py-[10px] w-[100%] h-[268px] bg-[#29a262] flex flex-col justify-around"
+          class="bgh4 rounded-[16px] pl-[32px] pr-[32px] py-[10px] w-[100%] h-[268px] bg-[#29a262] flex flex-col justify-around"
         >
           <h2 class="text-[white]">Эстетика/виниры</h2>
           <button
@@ -506,41 +520,532 @@
         >
           С чего начать, если <span class="text-[#30B5DF]">есть сомнения?</span>
         </h2>
-        <div class="flex justify-between flex-wrap gap-5 justify-center  items-center">
-
-        <div class="flex relative w-[90%] bg-[#f0eaea] p-4 rounded-lg h-[329px] flex-col justify-around items-start gap-4 mt-[9vh]">
-          <h3 class="font-bold text-[22px] leading-[148%] text-[#001837]">
-            Обсудить вашу ситуацию
-          </h3>
-          <p>
-            Ответим на все вопросы, предложим <br />
-            варианты лечения, сориентируем <br />
-            по стоимости.
-          </p>
-          <button class="border-[0.50px] border-[solid] border-[#d1d6db] rounded-[8px] px-[24px] flex justify-center items-center p-3 py-[18px] w-[221px] h-[47px]">Получить консультацию</button>
-          <img class="absolute right-2 bottom-1 p-2" src="/img/iPhone 13 Pro.png" alt="">
-
+        <div class="flex p-3 justify-between gap-5 items-center">
+          <div
+            class="flex relative w-[50%] bg-[#f0eaea] p-4 rounded-lg h-[329px] flex-col justify-around items-start gap-4 mt-[9vh]"
+          >
+            <h3 class="font-bold text-[22px] leading-[148%] text-[#001837]">
+              Обсудить вашу ситуацию
+            </h3>
+            <p>
+              Ответим на все вопросы, предложим <br />
+              варианты лечения, сориентируем <br />
+              по стоимости.
+            </p>
+            <button
+              class="border-[0.50px] border-[solid] border-[#d1d6db] rounded-[8px] px-[24px] flex justify-center items-center p-3 py-[18px] w-[221px] h-[47px]"
+            >
+              Получить консультацию
+            </button>
+            <img
+              class="absolute right-2 bottom-1 p-2"
+              src="/img/iPhone 13 Pro.png"
+              alt=""
+            />
           </div>
 
-           <div class="flex relative w-[90%] bg-[#f0eaea] p-4 rounded-lg h-[329px] flex-col justify-around items-start gap-4 mt-[9vh]">
-          <h3 class="font-bold text-[22px] leading-[148%] text-[#001837]">
-            Обсудить вашу ситуацию
-          </h3>
-          <p>
-            Ответим на все вопросы, предложим <br />
-            варианты лечения, сориентируем <br />
-            по стоимости.
-          </p>
-          <button class="border-[0.50px] border-[solid] border-[#d1d6db] rounded-[8px] px-[24px] flex justify-center items-center p-3 py-[18px] w-[221px] h-[47px]">Получить консультацию</button>
-          <img class="absolute right-2 bottom-1 p-2" src="/img/Презентация.png" alt="">
-
+          <div
+            class="flex relative w-[50%] bg-[#f0eaea] p-4 rounded-lg h-[329px] flex-col justify-around items-start gap-4 mt-[9vh]"
+          >
+            <h3 class="font-bold text-[22px] leading-[148%] text-[#001837]">
+              Обсудить вашу ситуацию
+            </h3>
+            <p>
+              Ответим на все вопросы, предложим <br />
+              варианты лечения, сориентируем <br />
+              по стоимости.
+            </p>
+            <button
+              class="border-[0.50px] border-[solid] border-[#d1d6db] rounded-[8px] px-[24px] flex justify-center items-center p-3 py-[18px] w-[221px] h-[47px]"
+            >
+              Получить консультацию
+            </button>
+            <img
+              class="absolute right-2 bottom-1 p-2"
+              src="/img/Презентация.png"
+              alt=""
+            />
           </div>
-        </div>
-
         </div>
       </div>
     </section>
 
+    <section>
+      <div class="contiener">
+        <div class="bg flex justify-between items-center">
+          <div
+            class="left mt-[200px] opacity-[50%] relative rounded-[16px] flex items-end w-[557px] h-[300px] backdrop-filter backdrop-blur-[36px] bg-[rgba(255,_255,_255,_0.86)]"
+          >
+            <div class="mt-3 mb-3 z-[77] flex flex-col gap-3">
+              <h3 class="font-bold text-[22px] leading-[118%] text-[#0b1f35]">
+                Рассрочка от Ami Clinic
+              </h3>
+              <p class="font-normal text-[17px] leading-[150%] text-[#111c27]">
+                • 6 месяцев<br />
+                • От 300 руб. в день <br />
+                • Оформление на месте
+              </p>
+              <button
+                class="rounded-[8px] px-[24px] py-[18px] w-[177px] h-[47px] bg-[#30b5df] font-medium text-[15px] leading-[130%] text-[#fff]"
+              >
+                Узнать подробнее
+              </button>
+            </div>
+            <img
+              class="absolute flex items-end right-0 top-0"
+              src="/img/Logotype.png"
+              alt=""
+            />
+            <div></div>
+          </div>
+
+          <div
+            class="right font-bold text-[70px] flex flex-col justify-between items-start gap-4 leading-[100%] text-[#111827]"
+          >
+            Новые зубы по цене <br />
+            <span class="text-[#30b5df]">чашки кофе в день</span>
+            <p class="font-normal text-[17px] leading-[150%] text-[#111c27]">
+              В стоматологии Ami Clinic лечение доступно каждому<br />
+              без мнимой экономии! <br />
+              <br />
+              Следите за здоровьем зубов у ведущих специалистов <br />
+              Москвы на самых гибких условиях.
+            </p>
+            <div class="mt-3">
+              <h3 class="font-bold text-[22px] leading-[118%] text-[#0b1f35]">
+                Рассрочка от 25 банков-партнеров
+              </h3>
+              <p class="font-normal text-[17px] leading-[150%] text-[#111c27]">
+                • Одобряемость 90% прямо на консультации<br />
+                • Без первоночального взноса до 12 мес. <br />
+                • С первоночальным взносом до 24 мес.
+              </p>
+            </div>
+            <button
+              class="rounded-[8px] px-[24px] py-[18px] w-[177px] h-[47px] bg-[#30b5df] font-medium text-[15px] leading-[130%] text-[#fff]"
+            >
+              Узнать подробнее
+            </button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section>
+      <div class="contiener mt-[10px]">
+        <h1
+          class="font-bold text-center text-[53px] leading-[93%] text-[#30b5df]"
+        >
+          Вы окутаны заботой
+        </h1>
+        <p
+          class="font-normal text-[17px] leading-[150%] text-center text-[#e9ebed] mt-2"
+        >
+          Куратор лечения - это специалист, который будет сопровождать вас
+          <br />
+          на протяжении всего лечения, оказывая поддержку и руководство.
+        </p>
+
+        <div class="flex justify-between items-start">
+          <div class="h-[100%] items-end justify-end">
+            <h1
+              class="font-medium text-[28px] leading-[120%] tracking-[-0.01em] text-[#111c27]"
+            >
+              Седовласова Юлия
+            </h1>
+            <p class="font-normal text-[17px] leading-[140%] text-[#1f2b37]">
+              Стаж: 6 лет
+            </p>
+            <p class="font-normal text-[17px] leading-[140%] text-[#1f2b37]">
+              По-человечески поддержит вас
+            </p>
+            <p class="font-normal text-[17px] leading-[140%] text-[#1f2b37]">
+              •Объяснит то, что не понятно после приема — переведет с
+              медицинского языка на человеческий.
+            </p>
+            <p class="font-normal text-[17px] leading-[140%] text-[#1f2b37]">
+              •Поможет разобраться с планом лечения
+            </p>
+            <p class="font-normal text-[17px] leading-[140%] text-[#1f2b37]">
+              •Подберет все возможные и невозможные способы оплат
+            </p>
+            <p class="font-normal text-[17px] leading-[140%] text-[#1f2b37]">
+              •Постоянно на связи
+            </p>
+            <button
+              class="rounded-[8px] px-[24px] py-[18px] w-[200px]flex justify-center bg-[#30b5df] h-[47px]"
+            >
+              Записаться на приём
+            </button>
+          </div>
+          <img src="/img/alisa.png" alt="" />
+        </div>
+      </div>
+    </section>
+
+    <section>
+      <div class="contiener">
+        <h3
+          class="font-medium text-[32px] leading-[125%] text-center text-[#16a3d0]"
+        >
+          Пациенты говорят
+        </h3>
+        <h2
+          class="font-semibold text-[40px] leading-[115%] text-center text-[#111c27]"
+        >
+          “Спасибо судьбе, что привела в Ami Clinic”
+        </h2>
+        <div class="flex justify-between items-center">
+          <div class="left_section mt-2">
+            <p class="font-semibold text-[22px] leading-[120%] text-[#111827]">
+              В другой клинике мне не смогли предложить<br />
+
+              <span class="text-[#30b5df]">одномоментную имплантацию</span>
+              <br /><br />
+            </p>
+            <p class="font-normal text-[15px] leading-[150%] text-[#111c27]">
+              У меня проблемы с зубами с 15 лет. С 15 лет мне попадались
+              непонятные <br />
+              стоматологи, которые угробили мне все зубы верхней челюсти.
+              Последний <br />
+              стоматолог, к которому я попала, поставил мне мосты с
+              металлокерамическими коронками, <br />
+              которые начали отваливаться через 3 дня. И в конечном итоге я
+              осталась без всех <br />верхних зубов верхней челюсти, остались
+              одни корни. Я начала следующего стоматолога <br />, который бы
+              надо мной поиздевался. Он сделал, я проходила с этими
+              коронками,<br />
+              мостами 13 лет. А сейчас герметичность нарушилась и эти мосты у
+              меня упали. Я сделала панорамный <br />
+              снимок и у меня приговор - я лишаюсь всех зубов верхней челюсти.
+              <br />
+              Начала искать, что делать. Прочитала весь интернет...
+            </p>
+          </div>
+          <div class="bg-gray-100 p-3 rounded-[8px] flex flex-col gap-3">
+            <img src="/img/w1.png" alt="" />
+            <audio
+              src="/img/janob-rasul-yomonsan_(uzhits.net).mp3"
+              controls
+            ></audio>
+          </div>
+        </div>
+        <br />
+
+        <div class="flex justify-between items-center">
+          <div class="left_section mt-2">
+            <p class="font-semibold text-[22px] leading-[120%] text-[#111827]">
+              В другой клинике мне не смогли предложить<br />
+
+              <span class="text-[#30b5df]">одномоментную имплантацию</span>
+              <br /><br />
+            </p>
+            <p class="font-normal text-[15px] leading-[150%] text-[#111c27]">
+              У меня проблемы с зубами с 15 лет. С 15 лет мне попадались
+              непонятные <br />
+              стоматологи, которые угробили мне все зубы верхней челюсти.
+              Последний <br />
+              стоматолог, к которому я попала, поставил мне мосты с
+              металлокерамическими коронками, <br />
+              которые начали отваливаться через 3 дня. И в конечном итоге я
+              осталась без всех <br />верхних зубов верхней челюсти, остались
+              одни корни. Я начала следующего стоматолога <br />, который бы
+              надо мной поиздевался. Он сделал, я проходила с этими
+              коронками,<br />
+              мостами 13 лет. А сейчас герметичность нарушилась и эти мосты у
+              меня упали. Я сделала панорамный <br />
+              снимок и у меня приговор - я лишаюсь всех зубов верхней челюсти.
+              <br />
+              Начала искать, что делать. Прочитала весь интернет...
+            </p>
+          </div>
+          <div class="bg-gray-100 p-3 rounded-[8px] flex flex-col gap-3">
+            <img src="/img/chol.png" alt="" />
+            <audio
+              src="/img/janob-rasul-yomonsan_(uzhits.net).mp3"
+              controls
+            ></audio>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section>
+      <div class="contiener">
+        <h2
+          class="font-medium text-[32px] leading-[125%] text-center text-[#384450]"
+        >
+          Придя к нам однажды — приходят после<span class="text-[#16a3d0]">
+            всей семьёй</span
+          >
+        </h2>
+        <div class="flex items-end justify-around mt-[5vh] gap-3">
+          <img src="../img/Component 1.png" alt="" />
+          <img src="../img/Component 2.png" alt="" />
+          <img src="../img/Component 3.png" alt="" />
+        </div>
+      </div>
+    </section>
+
+    <section>
+      <div class="contiener flex justify-around items-center">
+        <img src="/img/Аватар.png" alt="s" />
+        <div>
+          <h3>Популярные вопросы</h3>
+          <p class="mt-3">
+            Здравствуйте! Меня зовут Ирина, я ваш куратор лечения. <br />
+            Собрала для вас ответы на частые вопросы по All-on-4. <br />
+            По любым другим буду рада проинструктировать вас лично,<br />
+            Время ответа до 10 минут.
+          </p>
+          <button
+            class="font-medium text-[15px] leading-[150%] text-[#fff] rounded-[8px] px-[24px] py-[18px] w-[226px] h-[47px] bg-[#25d366] flex items-center justify-center mt-2"
+          >
+            Задать вопрос WhatsApp
+          </button>
+        </div>
+      </div>
+    </section>
+
+    <section>
+      <div
+        class="contiener grid grid-cols-[repeat(2,4fr)] gap-4 items-center justify-center"
+      >
+        <h3
+          class="flex items-center gap-4 justify-center font-medium text-[17px] leading-[130%] text-[#111827]"
+        >
+          Правда ли, что имплантация all-on-4 подходит не всем?<i
+            class="fa-solid fa-plus"
+          ></i>
+        </h3>
+        <h3
+          class="flex items-center gap-4 justify-center font-medium text-[17px] leading-[130%] text-[#111827]"
+        >
+          All-on-4 действительно делается за один день?<i
+            class="fa-solid fa-plus"
+          ></i>
+        </h3>
+        <h3
+          class="flex items-center gap-4 justify-center font-medium text-[17px] leading-[130%] text-[#111827]"
+        >
+          Если имплант не приживётся (отторгнется)?<i
+            class="fa-solid fa-plus"
+          ></i>
+        </h3>
+        <h3
+          class="flex items-center gap-4 justify-center font-medium text-[17px] leading-[130%] text-[#111827]"
+        >
+          Из чего формируется цена All-on-4?<i class="fa-solid fa-plus"></i>
+        </h3>
+        <h3
+          class="flex items-center gap-4 justify-center font-medium text-[17px] leading-[130%] text-[#111827]"
+        >
+          All-on-4 действительно делается за один день?<i
+            class="fa-solid fa-plus"
+          ></i>
+        </h3>
+        <h3
+          class="flex items-center gap-4 justify-center font-medium text-[17px] leading-[130%] text-[#111827]"
+        >
+          Требуется ли костная пластика при<br />
+          имплантации на 4-х имплантах?<i class="fa-solid fa-plus"></i>
+        </h3>
+        <h3
+          class="flex items-center gap-4 justify-center font-medium text-[17px] leading-[130%] text-[#111827]"
+        >
+          Чем отличаются импланты разных производителей?<i
+            class="fa-solid fa-plus"
+          ></i>
+        </h3>
+        <h3
+          class="flex items-center gap-4 font-medium justify-center text-[17px] leading-[130%] text-[#111827]"
+        >
+          Кому противопоказана имплантация по <br />протоколу All-on-4?<i
+            class="fa-solid fa-plus"
+          ></i>
+        </h3>
+      </div>
+    </section>
+
+    <section>
+      <div class="contiener">
+        <div class="flex justify-between items-center">
+          <h2 class="font-medium text-[32px] leading-[125%] text-[#111827]">
+            Подробнее об All-on-4 в нашем блоге
+          </h2>
+          <button
+            class="border-[0.50px] border-[solid] border-[#d1d6db] rounded-[8px] w-[126px] h-[36px] flex items-center justify-center p-4"
+          >
+            Cмотреть все
+          </button>
+        </div>
+
+        <div class="flex justify-around items-center">
+          <div class="mt-5 card1">
+            <img src="/img/lll.png" alt="" />
+
+            <h2 class="font-bold text-[20px] leading-[120%] text-[#000] mt-2">
+              Цифровое протезирование зубов: <br />
+              история пациента
+            </h2>
+            <p
+              class="font-normal text-[15px] leading-[150%] text-[#111c27] mt-3"
+            >
+              Каждый пациент мечтает об идеально точном,<br />
+              красивом и качественном результате.
+            </p>
+            <a href="#" class="flex gap-3 items-center"
+              ><i class="fa-solid fa-chevron-right mt-2"></i>Читать подробнее</a
+            >
+          </div>
+
+          <div class="card1">
+            <img src="/img/qqq.png" alt="" />
+
+            <h2 class="font-bold text-[20px] leading-[120%] text-[#000] mt-2">
+              Цифровое протезирование зубов: <br />
+              история пациента
+            </h2>
+            <p
+              class="font-normal text-[15px] leading-[150%] text-[#111c27] mt-3"
+            >
+              Каждый пациент мечтает об идеально точном,<br />
+              красивом и качественном результате.
+            </p>
+            <a href="#" class="flex gap-3 items-center"
+              ><i class="fa-solid fa-chevron-right mt-2"></i>Читать подробнее</a
+            >
+          </div>
+
+          <div class="card1">
+            <img src="/img/wq.png" alt="" />
+
+            <h2 class="font-bold text-[20px] leading-[120%] text-[#000] mt-2">
+              Цифровое протезирование зубов: <br />
+              история пациента
+            </h2>
+            <p
+              class="font-normal text-[15px] leading-[150%] text-[#111c27] mt-3"
+            >
+              Каждый пациент мечтает об идеально точном,<br />
+              красивом и качественном результате.
+            </p>
+            <a href="#" class="flex gap-3 items-center"
+              ><i class="fa-solid fa-chevron-right mt-2"></i>Читать подробнее</a
+            >
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <footer class="mt-[10vh] bg-[#ffffff97]">
+      <div class="contiener  justify-around flex gap-5 items-start">
+        <div class="left_footer flex flex-col items-start p-3 justify-between">
+          <img src="/img/Логотип,слоган (1).png" alt="" />
+          <div class="flex items-center mb-3 mt-3">
+            <input
+              class="border-[0.50px] border-[solid] border-[#949da6] rounded-[10px] px-0 py-[8px] w-[248px] h-[47px]"
+              type="text"
+            />
+            <button
+              class="rounded-[8px] px-[24px] py-[18px] w-[131px] h-[47px] bg-[#30b5df] flex items-center justify-center text-[white]"
+            >
+              Записаться
+            </button>
+          </div>
+          <div class="flex items-center gap-2 mb-3">
+            <input type="checkbox" />
+            <p>
+              Нажимая кнопку вы соглашаетесь с <br />
+              условиями политики конфиденциальности.
+            </p>
+          </div>
+          <br />
+          <p class="flex items-center gap-3">
+            <i class="fa-solid fa-clock"></i>Пн-Вс 9:00-21:00
+          </p>
+          <br />
+          <p class="flex items-center gap-3">
+            <i class="fa-solid fa-location-dot"></i>г. Москва, ул. Таганская, д.
+            26, стр. 1
+          </p>
+          <div class="flex items-center gap-3 mt-3 mb-3">
+            <i class="fa-brands fa-vk"></i>
+            <i class="fa-brands fa-youtube"></i>
+            <i class="fa-brands fa-odnoklassniki"></i>
+          </div>
+        </div>
+        <div class="right_footer grid grid-cols-[repeat(3,1fr)] gap-5">
+          <div class="flex flex-col justify-around gap-4 items-start">
+            <p class="font-semibold text-[15px] leading-[140%] text-[#111c27]">
+              Клиника
+            </p>
+            <a href="#">О нас</a>
+            <a href="#">Врачи</a>
+            <a href="#">Отзывы 157</a>
+            <a href="#">Акции, рассрочка</a>
+            <a href="#">Статьи</a>
+            <a href="#">Контакты</a>
+          </div>
+
+          <div class="flex flex-col justify-around gap-4 items-start">
+            <p class="font-semibold text-[15px] leading-[140%] text-[#111c27]">
+              Услуги
+            </p>
+            <a href="#">All-on-4 / Имплантация</a>
+            <a href="#">Лечение зубов / Терапия</a>
+            <a href="#"> Выравнивание зубов / Ортопедия </a>
+            <a href="#"> Эстетика/Ортопедия </a>
+            <a href="#"> Зуботехническая лаборатория </a>
+            <a href="#"> Рассчёт стоимости онлайн </a>
+          </div>
+
+          <div class="flex flex-col justify-around gap-4 items-start">
+            <p class="font-semibold text-[15px] leading-[140%] text-[#111c27]">
+              Телефон
+            </p>
+            <a href="#">+7 8125 000 00 00 </a>
+            <a href="#">Отвечаем онлайн </a>
+            <a href="#">WhatsApp </a>
+            <a href="#"> Viber </a>
+            <a href="#">Telegram </a>
+          </div>
+
+          <div class="flex flex-col justify-around gap-4 items-start">
+            <p class="font-semibold text-[15px] leading-[140%] text-[#111c27]">
+            Преимущества
+              
+            </p>
+            <a href="#">Лечение без боли и стресса
+</a>
+            <a href="#">Собственная зуботехническая лаборатория
+</a>
+            <a href="#"> Полное восстановление зубов за 1 день
+ </a>
+            <a href="#">Бесплатный первичный прием
+</a>
+            <a href="#"> Рассрочка от клиники
+ </a>
+            <a href="#">Все врачи работают с оптикой — увеличиение до 40 крат
+</a>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <div class="flex justify-around contiener flex-wrap items-center">
+      <a href="#" class="font-normal text-[12px] leading-[140%] text-center text-[#111c27]">
+      Работаем с 2016 г.
+
+      </a>
+<a href="#" class="font-normal text-[12px] leading-[140%] text-center text-[#111c27]">
+      Материалы с сайта защищены законом РФ об авторских и смежных правах. <br> Копирование запрещено. Сайт не является договором офферты
+
+</a>
+  <a href="#" class="font-normal text-[12px] leading-[140%] text-center text-[#111c27]">
+      Политика конфенденциальности
+
+  </a>  
+</div> 
     <script src="/main.js"></script>
   </body>
 </html>

@@ -12,7 +12,32 @@ body {
   padding: 0;
   box-sizing: border-box;
 }
+.bgh1{
+  background-image: url(/img/r1.png);
+  background-size: cover;
+}.bgh2{
+  background-image: url(/img/r2.png);
+  background-size: cover;
+}.bgh3{
+  background-image: url(/img/r3.png);
+  background-size: cover;
+}.bgh4{
+  background-image: url(/img/r4.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
 
+.BGD{
+  background-image: url(/img/DOCTORS.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+  background-blend-mode: ;
+}
+.bg{
+  background-image: url(../img/woman\ 1.png);
+  background-repeat: no-repeat;  
+}
 .contiener {
   margin: 0 auto;
   padding: 20px 40px;
